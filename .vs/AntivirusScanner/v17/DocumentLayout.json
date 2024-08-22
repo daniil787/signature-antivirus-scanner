@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:avrec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,8 +15,24 @@
       "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:sha256hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\sha256hash.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:sha256hash.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\scanner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:scanner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\isFileExist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:isFileExist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrecord.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:avrecord.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -33,18 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\avbase.avb||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:avbase.avb||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrecord.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:avrecord.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\sha256hash.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:sha256hash.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|C:\\Users\\user\\source\\repos\\AntivirusScanner\\isFileExist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21E24BFB-BD6A-4DC2-A50A-50DC82AECB01}|AntivirusScanner.vcxproj|solutionrelative:isFileExist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,63 +54,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "avbase.avb",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avbase.avb",
-              "RelativeDocumentMoniker": "avbase.avb",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avbase.avb",
-              "RelativeToolTip": "avbase.avb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-15T11:03:53.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "sha256hash.cpp",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\sha256hash.cpp",
               "RelativeDocumentMoniker": "sha256hash.cpp",
               "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\sha256hash.cpp",
               "RelativeToolTip": "sha256hash.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-15T10:57:10.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "scanner.cpp",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\scanner.cpp",
               "RelativeDocumentMoniker": "scanner.cpp",
               "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\scanner.cpp",
               "RelativeToolTip": "scanner.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-15T10:56:53.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-15T10:56:36.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "scanner.h",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\scanner.h",
+              "RelativeDocumentMoniker": "scanner.h",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\scanner.h",
+              "RelativeToolTip": "scanner.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-15T10:55:38.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "avrec.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrec.cpp",
+              "RelativeDocumentMoniker": "avrec.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrec.cpp",
+              "RelativeToolTip": "avrec.cpp",
+              "ViewState": "AQIAAE0AAAAAAAAAAADwv2MAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-15T10:56:30.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AVBFile.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.cpp",
+              "RelativeDocumentMoniker": "AVBFile.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.cpp",
+              "RelativeToolTip": "AVBFile.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-15T10:56:06.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "AVBFile.h",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.h",
+              "RelativeDocumentMoniker": "AVBFile.h",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.h",
+              "RelativeToolTip": "AVBFile.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-15T10:54:41.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "avrecord.h",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrecord.h",
+              "RelativeDocumentMoniker": "avrecord.h",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrecord.h",
+              "RelativeToolTip": "avrecord.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-15T10:54:54.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "isFileExist.h",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\isFileExist.h",
+              "RelativeDocumentMoniker": "isFileExist.h",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\isFileExist.h",
+              "RelativeToolTip": "isFileExist.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-15T10:55:12.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "sha256hash.h",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\sha256hash.h",
               "RelativeDocumentMoniker": "sha256hash.h",
@@ -118,84 +183,20 @@
               "RelativeToolTip": "sha256hash.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-15T10:55:54.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "scanner.h",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\scanner.h",
-              "RelativeDocumentMoniker": "scanner.h",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\scanner.h",
-              "RelativeToolTip": "scanner.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-15T10:55:38.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "avrec.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrec.cpp",
-              "RelativeDocumentMoniker": "avrec.cpp",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrec.cpp",
-              "RelativeToolTip": "avrec.cpp",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAGoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-15T10:56:30.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AVBFile.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.cpp",
-              "RelativeDocumentMoniker": "AVBFile.cpp",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.cpp",
-              "RelativeToolTip": "AVBFile.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-15T10:56:06.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AVBFile.h",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.h",
-              "RelativeDocumentMoniker": "AVBFile.h",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\AVBFile.h",
-              "RelativeToolTip": "AVBFile.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwCUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-15T10:54:41.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "avrecord.h",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrecord.h",
-              "RelativeDocumentMoniker": "avrecord.h",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avrecord.h",
-              "RelativeToolTip": "avrecord.h",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAuwCkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-15T10:54:54.578Z",
+              "WhenOpened": "2024-08-15T10:55:54.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "isFileExist.h",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\isFileExist.h",
-              "RelativeDocumentMoniker": "isFileExist.h",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\isFileExist.h",
-              "RelativeToolTip": "isFileExist.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-15T10:55:12.031Z"
+              "Title": "avbase.avb",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avbase.avb",
+              "RelativeDocumentMoniker": "avbase.avb",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\AntivirusScanner\\avbase.avb",
+              "RelativeToolTip": "avbase.avb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-21T17:42:51.587Z"
             }
           ]
         }

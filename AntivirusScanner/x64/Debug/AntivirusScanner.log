@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  avrec.cpp
+  scanner.cpp
+C:\Users\user\source\repos\AntivirusScanner\scanner.cpp(121,20): warning C4244: инициализация: преобразование "std::streamoff" в "DWORD", возможна потеря данных
+  Создание кода...
   AntivirusScanner.vcxproj -> C:\Users\user\source\repos\AntivirusScanner\x64\Debug\AntivirusScanner.exe

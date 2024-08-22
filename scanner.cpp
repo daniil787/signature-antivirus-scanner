@@ -17,7 +17,7 @@ void processPath(PCSTR Path) {
     HANDLE hFind = FindFirstFileA(File.c_str(), &FindData);
 
     if (hFind == INVALID_HANDLE_VALUE) {
-        std::cout << "Invalid path: " << Path << std::endl;
+             std::cout << "Invalid path: " << Path << std::endl;
         return;
     }
     do {

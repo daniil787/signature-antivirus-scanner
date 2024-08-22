@@ -21,14 +21,14 @@ typedef struct SAVSignature {
 typedef struct SAVRecord {
 
 	SAVRecord() {
-		this->Name = NULL;
+		this->Name = nullptr;
 		this->NameLen = 0;
 
 	}
-	~SAVRecord() { if (this->Name != NULL) delete[]  this->Name; }
+	~SAVRecord() { if (this->Name != nullptr) delete[]  this->Name; }
 
 	void allocName(BYTE NameLen) {
-		if (this->Name == NULL) {
+		if (this->Name == nullptr) {
 			this->NameLen = NameLen;
 			this->Name = new CHAR[this->NameLen + 1];
 			memset(this->Name, 0, this->NameLen + 1);

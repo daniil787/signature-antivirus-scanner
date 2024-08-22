@@ -7,7 +7,6 @@
 #include "avrecord.h"
 
 
-
 typedef struct SAVRecordCollection {
     SAVRecordCollection(DWORD RecordCount) {
         this->RecordCount = RecordCount;
