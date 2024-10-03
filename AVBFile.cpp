@@ -2,53 +2,61 @@
 #include <iostream>
 
 // CAVBFileReader
-CAVBFileReader::CAVBFileReader() {}
-CAVBFileReader::~CAVBFileReader() {}
 
-bool ifFileExist(const char* fileName) {
+CAVBFileReader::CAVBFileReader() : CAVBFile() {}
 
-    return GetFileAttributesA(fileName) != DWORD(-1);
+CAVBFileReader::~CAVBFileReader() {
+    
 }
 
-bool CAVBFileReader::open(const char* FilePath) {
+bool CAVBFileReader::open(const char* file_path) {
 
-    file.open(FilePath, std::ios::binary, std::ios::in);
-    return file.is_open();
+    file.open(file_path, std::ios::binary | std::ios::in);
 
-}
-bool CAVBFileReader::readRecord(SAVRecord* record) {
-
-    if (!file.read(reinterpret_cast<char*>(record), sizeof(SAVRecord))) {
-        return false;
+    if (!file.is_open()) {
+        return false;   
     }
+
+    file.read(reinterpret_cast<char*>(&record_count), sizeof(DWORD));
+
     return true;
 }
 
-void CAVBFileReader::close() {
-    if (file.is_open()) {
-        file.close();
+
+bool CAVBFileReader::readRecord(SAVRecord* record) {
+
+    if (!file.read(reinterpret_cast<char*>(record), sizeof(SAVRecord))) {
+
+        return false;
     }
+
+    return true;
 }
 
 // CAVBFileWriter
-CAVBFileWriter::CAVBFileWriter() {}
+
+CAVBFileWriter::CAVBFileWriter() : CAVBFile() {}
+
+
 CAVBFileWriter::~CAVBFileWriter() {}
 
 bool CAVBFileWriter::open(const char* path) {
+
     file.open(path, std::ios::binary | std::ios::out | std::ios::app);
+
     return file.is_open();
 }
 
 bool CAVBFileWriter::addRecord(const SAVRecord* record) {
-    if (!file.write(reinterpret_cast<const char*>(record), sizeof(SAVRecord))) {
-        return false;
+
+    if (file.write(reinterpret_cast<const char*>(record), sizeof(SAVRecord))) {
+    
+        record_count++;
+        return true;
     }
-    return true;
+
+    return false;
 }
 
-void CAVBFileWriter::close() {
-    if (file.is_open()) {
-        file.close();
-    }
-}
+
 

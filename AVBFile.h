@@ -1,37 +1,58 @@
-#ifndef AVBFILE_H
-#define AVBFILE_H
+    #ifndef AVBFILE_H
+    #define AVBFILE_H
 
-#include <fstream>
-#include "avrecord.h"
+    #include <fstream>
+    #include "avrecord.h"
 
-class CAVBFile {
-public:
-    virtual ~CAVBFile() = default;
-};
+    class CAVBFile {
 
-class CAVBFileReader : public CAVBFile {
-public:
-    CAVBFileReader();
-    ~CAVBFileReader();
-    bool open(const char* path);
-    bool readRecord(SAVRecord* record);
-    void close();
-private:
-    std::ifstream file;
-};
+    public:
+    
+        CAVBFile():record_count(0) {};
 
-class CAVBFileWriter : public CAVBFile {
-public:
-    CAVBFileWriter();
-    ~CAVBFileWriter();
-    bool open(const char* path);
-    bool addRecord(const SAVRecord* record);
-    void close();
-private:
-    std::ofstream file;
-};
+        virtual ~CAVBFile() { close(); }
 
-#endif
+        virtual bool open(const char* path) = 0;
+
+       bool is_open() const {
+           return file.is_open();
+       }
+   
+       void close() {
+           if (file.is_open()) {
+               file.close();
+           }
+       }
+
+    protected:
+        std::fstream file;
+        DWORD record_count;  
+
+    };
+
+    class CAVBFileReader : public CAVBFile {
+
+    public:
+
+        CAVBFileReader();
+        ~CAVBFileReader() override;
+        bool open(const char* path) override;
+        bool readRecord(SAVRecord* record);
+
+    };
+
+    class CAVBFileWriter : public CAVBFile {
+
+    public:
+
+        CAVBFileWriter();
+        ~CAVBFileWriter() override;
+        bool open(const char* path) override;
+        bool addRecord(const SAVRecord* record);
+
+    };
+
+    #endif
 
 
 

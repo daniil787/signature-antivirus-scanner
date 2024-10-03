@@ -10,6 +10,7 @@
 
 // argument copying
 bool copyArg(const char* Arg, DWORD Offset, char* Buffer, DWORD Size) {
+    
     size_t ArgLen = strlen(Arg);
     if (Offset > ArgLen) {
         return false;
@@ -47,13 +48,11 @@ int addRecordMain(int argc, char* argv[]) {
     DWORD length = static_cast<DWORD>(atoi(argv[4]));
     const char* name = argv[5];
 
-    std::cout << "srcFile: " << srcFile << std::endl;
+    std::cout << "\nsrcFile: " << srcFile << std::endl;
     std::cout << "dstFile: " << dstFile << std::endl;
     std::cout << "offset: " << offset << std::endl;
     std::cout << "length: " << length << std::endl;
     std::cout << "name: " << name << std::endl;
-
-    
 
 
     // create record of base signatures(avbase)
@@ -65,18 +64,12 @@ int addRecordMain(int argc, char* argv[]) {
     strncpy_s(Record.Name, Record.NameLen + 1, name, _TRUNCATE);
 
 
-
-
-
     // open file in binary 
     std::ifstream hSrcFile(srcFile, std::ios::in | std::ios::binary);
     if (!hSrcFile.is_open()) {
         std::cout << "> Can't open source file. Stop." << std::endl;
         return 0;
     }
-
-
-
 
 
     // Reading data to calculate checksum
@@ -91,17 +84,11 @@ int addRecordMain(int argc, char* argv[]) {
     hSrcFile.read(reinterpret_cast<char*>(Buffer.get()), Record.Signature.Lenght);
     hSrcFile.close();
 
-
-
-
     // Calculating the signature hash
     getSHA256(Buffer.get(), Record.Signature.Lenght, reinterpret_cast<BYTE*>(Record.Signature.Hash));
     
-
-
-
     // print info
-    std::cout << "Record info:" << std::endl;
+    std::cout << "\nRecord info:" << std::endl;
     std::cout << " Name: " << Record.Name << std::endl;
     std::cout << " Offset: 0x" << std::hex << Record.Signature.Offset << " (" << std::dec << Record.Signature.Offset << ")" << std::endl;
     std::cout << " Length: 0x" << std::hex << Record.Signature.Lenght << " (" << std::dec << Record.Signature.Lenght << ")" << std::endl;
@@ -109,9 +96,6 @@ int addRecordMain(int argc, char* argv[]) {
         Record.Signature.Hash[0], Record.Signature.Hash[1], Record.Signature.Hash[2],
         Record.Signature.Hash[3], Record.Signature.Hash[4], Record.Signature.Hash[5],
         Record.Signature.Hash[6], Record.Signature.Hash[7]);
-
-
-
 
 
     // Adding a record to the database

@@ -15,12 +15,13 @@ typedef struct SAVRecordCollection {
     ~SAVRecordCollection() {
         delete[] this->Record;
     }
+    
     DWORD RecordCount;
     PSAVRecord Record;
+
 } *PSAVRecordCollection;
 
 extern PSAVRecordCollection AVRCollection;
-
 
 int addRecordMain(int argc, char* argv[]);
 

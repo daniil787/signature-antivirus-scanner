@@ -8,3 +8,4 @@ inline bool  isFileExist(const char* FileName) {
 }
 
 #endif
+
