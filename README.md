@@ -1,6 +1,6 @@
 # Signature antivirus scanner
 Works throuhgt command line
-Keep command for add signature and scan by directories
+Keep command for add signature and scan directories
 
 ## How work whith it
 You need to open cmd and enter the command: 
